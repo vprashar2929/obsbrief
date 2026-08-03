@@ -1,0 +1,22 @@
+# {{ report_title }} ({{ environment }})
+
+This report is designed for platform operations review.
+{{ scope_text }}
+
+- Generated At (UTC): {{ generated_at }}
+- Overall Assessment Result: {{ overall_status }}
+{% if organization_name -%}
+- Organization: {{ organization_name }}
+{% endif %}
+Assessment result definitions:
+
+| Assessment Result | Meaning |
+| --- | --- |
+| No Findings | Evidence was available and no configured warning or critical finding was found. |
+| Needs Review | Evidence shows one or more warning-level findings that should be reviewed. |
+| Action Required | A critical finding was found, or required evidence could not be collected. |
+| Not Assessed | Check does not apply to this component/environment, or a prerequisite is absent. |
+
+## Executive Summary
+
+- Environment: `{{ environment }}`

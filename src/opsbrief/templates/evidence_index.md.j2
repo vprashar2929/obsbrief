@@ -1,0 +1,13 @@
+
+## Evidence Index
+
+- Report Markdown: `{{ markdown_name }}`
+- Report JSON: `{{ json_name }}`
+- Assessment run evidence: `evidence/collector-status.json`
+- Detailed evidence by check: `evidence/collectors/*.json`
+{% if has_chart_refs -%}
+- Chart evidence: `evidence/charts/*.png`
+{% else -%}
+- Chart evidence: none generated for this report
+{% endif -%}
+- Evidence is generated from read-only API calls only.

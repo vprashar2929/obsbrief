@@ -1,0 +1,41 @@
+# A complete, neutral sample profile. Copy this file and replace only the values
+# that represent your organization. The bundled mark is original OpsBrief
+# artwork; it is not a cloud-provider or design-system logo.
+organization_name: OpsBrief
+report_title: OpsBrief Weekly Operational Report
+logo_path: sample-assets/opsbrief-mark.svg
+logo_alt: OpsBrief sample mark
+logo_width_mm: 18
+font_family: "Arial, Helvetica, sans-serif"
+font_faces: []
+colors:
+  primary: "#17324d"
+  secondary: "#244d6d"
+  accent: "#0f8b8d"
+  background: "#f6f8fb"
+  surface: "#ffffff"
+  text: "#152536"
+  muted: "#536779"
+  border: "#d7e0e8"
+  header_background: "#e9f2f5"
+  row_alternate: "#f8fafc"
+  code_background: "#edf3f6"
+report_theme:
+  theme_lines:
+    enabled: true
+    count: 6
+    color: "#7fd1c9"
+  corner_motif:
+    enabled: true
+    fill: "#17324d"
+    border: "#7fd1c9"
+  status_colors:
+    ok: "#18794e"
+    warning: "#a56300"
+    critical: "#b3261e"
+    scoped: "#52616b"
+  chart_palette:
+    - "#0f8b8d"
+    - "#3d6a99"
+    - "#8b5e83"
+    - "#b06d28"

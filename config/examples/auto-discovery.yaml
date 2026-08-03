@@ -1,0 +1,35 @@
+environment: auto-discovery
+default_region: us-central1
+timeout_seconds: 45
+projects:
+  primary: example-project
+collectors:
+  preflight: true
+  gke_inventory: true
+  kubernetes_health: true
+  monitoring: true
+  logging: true
+  audit: true
+  network: true
+  mesh: true
+  trend_metrics: true
+  backup: true
+  services: true
+clusters: []
+services:
+  cloud_sql: true
+  redis: true
+  managed_kafka: true
+  elasticsearch_backup_checks: []
+  compute_instances: []
+  load_balancers: []
+time_windows:
+  trend_days: 7
+discovery:
+  auto_discover_clusters: true
+  include_discovered_clusters: false
+  auto_discover_compute_instances: true
+  auto_discover_load_balancers: true
+reporting:
+  include_evidence_index: false
+  include_collector_warnings_and_gaps: false

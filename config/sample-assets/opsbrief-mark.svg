@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title>OpsBrief sample mark</title>
+  <rect width="96" height="96" rx="20" fill="#17324d"/>
+  <path d="M22 60.5 37 45l11 10 25-27" fill="none" stroke="#7fd1c9" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="22" cy="60.5" r="5" fill="#fff"/>
+  <circle cx="48" cy="55" r="5" fill="#fff"/>
+  <circle cx="73" cy="28" r="5" fill="#fff"/>
+</svg>

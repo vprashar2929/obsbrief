@@ -1,0 +1,38 @@
+environment: dev
+default_region: us-central1
+timeout_seconds: 45
+projects:
+  primary: example-dev-project
+collectors:
+  preflight: true
+  gke_inventory: true
+  kubernetes_health: true
+  monitoring: true
+  logging: true
+  audit: true
+  network: true
+  mesh: true
+  trend_metrics: true
+  backup: true
+  services: true
+clusters:
+  - name: dev-cluster
+    project: example-dev-project
+    region: us-central1
+services:
+  cloud_sql: true
+  redis: true
+  managed_kafka: true
+  elasticsearch_backup_checks: []
+  compute_instances: []
+  load_balancers: []
+time_windows:
+  trend_days: 7
+discovery:
+  auto_discover_clusters: false
+  include_discovered_clusters: false
+  auto_discover_compute_instances: false
+  auto_discover_load_balancers: false
+reporting:
+  include_evidence_index: false
+  include_collector_warnings_and_gaps: false

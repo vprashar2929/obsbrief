@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <style>
+{{ style_css | safe }}
+  </style>
+</head>
+<body>
+  <main class="report-shell">
+    <div class="report-layout">
+{{ section_nav | safe }}
+      <article class="report-content">
+{{ brand_banner | safe }}
+{{ report_hero | safe }}
+{{ html_body | safe }}
+      </article>
+    </div>
+  </main>
+</body>
+</html>
