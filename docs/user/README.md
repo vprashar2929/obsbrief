@@ -31,7 +31,7 @@ Use `--config` for runtime scope and collector settings. Use `--brand-profile` f
 organization-specific report styling. These are separate files so the same collected data can
 be re-rendered with a different client brand without calling GCP again.
 Use `config/examples/auto-discovery.yaml` or `config/examples/explicit-clusters.yaml`
-as sanitized starting points when you want a committed config file instead of
+as example starting points when you want a committed config file instead of
 runtime-only CLI overrides.
 
 ```bash
@@ -124,10 +124,10 @@ report_theme:
   chart_palette: []
 ```
 
-Use `config/brand.example.yaml` as the public starting point. Keep
-organization-specific profiles, logo/font assets, and brand guidelines outside this
-repository. `font_faces` is optional; use it when approved local font files must be
-embedded into generated HTML/PDF output instead of relying on workstation-installed fonts.
+Use `config/brand.example.yaml` as a starting point and customize it with the profiles,
+logo/font assets, and brand guidelines for your deployment. `font_faces` is optional; use it
+when approved local font files must be embedded into generated HTML/PDF output instead of
+relying on workstation-installed fonts.
 `report_theme` is optional report presentation metadata for motif toggles, semantic status
 colors, and chart series palette.
 

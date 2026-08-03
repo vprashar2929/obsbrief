@@ -28,5 +28,5 @@ these constraints:
 
 - No mutating GCP, Kubernetes, or external service operations.
 - No credential persistence.
-- No committed secrets, customer identifiers, private hostnames, or generated reports.
+- No committed secrets, customer identifiers, or private hostnames.
 - No automatic upload, email, ticket, chat, or storage side effects without an explicit design review.

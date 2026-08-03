@@ -4,7 +4,7 @@
   scope flags such as `--project`, `--region`, and `--cluster`.
 - `brand.example.yaml`: ready-to-run, provider-neutral sample brand profile. It uses the original
   bundled `sample-assets/opsbrief-mark.svg`, not a third-party logo.
-- `examples/`: sanitized runtime config examples for generic usage.
+- `examples/`: runtime config examples for common usage.
 
-Copy the sample profile before adding organization-specific runtime configurations, branding
-assets, or report output; keep those private artifacts outside this public repository.
+Copy the sample profile when customizing runtime configurations, branding assets, or report
+output for your deployment.

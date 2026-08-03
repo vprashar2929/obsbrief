@@ -191,9 +191,8 @@ Logo and font paths are resolved relative to the brand YAML file. `font_family` 
 the CSS font stack; `font_faces` is optional and embeds approved local font files into
 HTML/PDF output so rendering does not depend on fonts installed on the workstation.
 `report_theme` is optional report presentation metadata: motif toggles, semantic status
-colors, and chart series palette. Use `config/brand.example.yaml` as the public starting
-point, then copy it before adding organization-specific profiles, logos, fonts, or brand
-guidelines. Keep those private artifacts outside this public repository.
+colors, and chart series palette. Use `config/brand.example.yaml` as a starting point, then
+customize it with the profiles, logos, fonts, or brand guidelines for your deployment.
 
 The tool does not parse or infer rules from a brand guideline PDF. Encode approved
 values in the brand profile YAML and store logo assets beside that YAML or use absolute

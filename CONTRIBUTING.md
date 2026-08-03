@@ -33,7 +33,8 @@ Run focused tests while developing, then run the full suite before opening a pul
 - Prefer existing collector, config, and reporting patterns over new abstractions.
 - Add or update tests for behavior changes.
 - Mock GCP and Kubernetes clients in tests; do not require live infrastructure.
-- Do not commit credentials, customer identifiers, private hostnames, or generated reports.
+- Do not commit credentials, customer identifiers, or private hostnames. Checked-in report
+  fixtures must use deterministic, anonymized sample data.
 - Keep the CLI read-only. Do not add remediation, deletion, update, or notification side effects.
 
 ## Pull Requests

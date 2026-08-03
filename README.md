@@ -152,4 +152,3 @@ real environment.
 - If ADC is unavailable, `--auth-mode auto` falls back to active `gcloud` credentials.
 - Kubernetes checks for private endpoints require network reachability to cluster APIs.
 - `config/runtime.yaml`, `config/brand.example.yaml`, and `config/examples/*.yaml` are generic starting points.
-- Keep organization-specific runtime configs, brand assets, and report artifacts outside this public repository.
